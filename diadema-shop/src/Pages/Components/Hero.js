@@ -8,7 +8,10 @@ export const Hero = () => {
       className="bg-center bg-no-repeat bg-cover"
       style={{ backgroundImage: `url(${HeroBanner})` }}
     >
-      <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+      <div
+        className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56"
+        style={{ paddingTop: "28rem" }}
+      >
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
           We invest in the world’s potential
         </h1>
