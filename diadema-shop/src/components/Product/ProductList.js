@@ -14,7 +14,7 @@ export const ProductList = () => {
   ];
 
   return (
-    <div className="px-4 mx-auto max-w-screen-m text-center py-24 lg:py-56 flex flex-wrap justify-center">
+    <div className="px-4 mx-auto max-w-screen-m text-center py-24 ml-2 flex flex-wrap justify-center">
       {products.map((product) => (
         <ProductCard
           key={product.id}

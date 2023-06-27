@@ -84,7 +84,7 @@ export const Navbar = () => {
 
               {/* Shop link */}
               <Link
-                to="/"
+                to="/shop"
                 className="text-white hover:bg-gray-700 px-3 py2 rounded-md text-sm font-medium"
               >
                 Shop
@@ -92,7 +92,7 @@ export const Navbar = () => {
 
               {/* About link */}
               <Link
-                to="/"
+                to="/about"
                 className="text-white hover:bg-gray-700 px-3 py2 rounded-md text-sm font-medium"
               >
                 About
@@ -100,7 +100,7 @@ export const Navbar = () => {
 
               {/* Contact link */}
               <Link
-                to="/"
+                to="/contact"
                 className="text-white hover:bg-gray-700 px-3 py2 rounded-md text-sm font-medium"
               >
                 Contact
